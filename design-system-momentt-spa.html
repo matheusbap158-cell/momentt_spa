@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design System | Momentt Spa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--noir-950:#0F0C09;--noir-900:#17120D;--noir-800:#221A12;--gold-300:#E6CC8A;--gold-400:#D4AF5F;--gold-500:#C09A45;--gold-700:#7D5F22;--ivory-50:#FAF5EA;--ivory-100:#F1E8D6;--ivory-200:#E2D5BC;--ink-900:#1D1710;--ink-600:#5F5444;--text-on-dark:#EADFC9;--text-on-dark-muted:#BFB197;--wa-500:#25D366;--alert-600:#B3492E;--font-display:'Cormorant Garamond',Georgia,serif;--font-body:'Jost',-apple-system,'Segoe UI',sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:var(--noir-950);color:var(--text-on-dark);font-family:var(--font-body);line-height:1.7;font-size:16px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+header{padding:64px 0 24px;border-bottom:1px solid rgba(212,175,95,.2)}
+h1,h2,h3{font-family:var(--font-display);font-weight:500;margin:0}
+h1{font-size:clamp(38px,6vw,60px);line-height:1.05}
+h1 em,h2 em{color:var(--gold-300)}
+h2{font-size:clamp(28px,4vw,38px);margin:64px 0 8px;line-height:1.12}
+.sub{color:var(--text-on-dark-muted);margin:0 0 24px}
+.eyebrow{font-size:12.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-400);font-weight:500}
+.sw{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px}
+.sw button{font:inherit;text-align:left;cursor:pointer;border:1px solid rgba(212,175,95,.22);border-radius:16px;overflow:hidden;background:var(--noir-800);color:var(--text-on-dark);padding:0}
+.sw button:hover,.sw button:focus-visible{border-color:var(--gold-400);outline:3px solid var(--gold-400);outline-offset:3px}
+.sw i{display:block;height:72px}
+.sw span{display:block;padding:10px 14px 12px;font-size:13px}
+.sw b{display:block;font-size:14px}
+#toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--gold-500);color:var(--noir-900);padding:10px 20px;border-radius:999px;font-weight:600;opacity:0;transition:opacity .2s;pointer-events:none}
+#toast.on{opacity:1}
+.type>div{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline;padding:14px 0;border-bottom:1px solid rgba(212,175,95,.15)}
+.type small{color:var(--text-on-dark-muted);font-size:13px;min-width:210px}
+.row{display:flex;flex-wrap:wrap;gap:16px;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:12px;min-height:52px;padding:0 28px;border-radius:999px;font:600 15px var(--font-body);letter-spacing:.04em;text-decoration:none;cursor:pointer;border:1px solid transparent;transition:transform .2s,filter .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn:focus-visible{outline:3px solid var(--gold-300);outline-offset:3px}
+.btn-primary{background:linear-gradient(135deg,var(--gold-400),var(--gold-500));color:var(--noir-900);box-shadow:0 8px 30px rgba(192,154,69,.25)}
+.btn-primary:hover{filter:brightness(1.08)}
+.btn-ghost{background:transparent;color:var(--text-on-dark);border-color:rgba(212,175,95,.6)}
+.btn-ghost:hover{background:rgba(212,175,95,.1)}
+.btn-wa{background:var(--wa-500);color:#06280f}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--noir-800);border:1px solid rgba(212,175,95,.22);border-radius:20px;padding:28px;transition:border-color .2s}
+.card:hover{border-color:rgba(212,175,95,.6)}
+.card h3{font-size:26px;margin-bottom:8px}
+.card p{margin:0;color:var(--text-on-dark-muted);font-size:15px}
+label{display:block;font-size:14px;margin:0 0 6px;color:var(--text-on-dark-muted)}
+input{width:100%;max-width:360px;height:52px;border-radius:14px;border:1px solid rgba(212,175,95,.3);background:transparent;color:var(--text-on-dark);padding:0 16px;font:inherit}
+input:focus{border-color:var(--gold-500);outline:3px solid rgba(212,175,95,.4);outline-offset:2px}
+input.err{border-color:var(--alert-600)}
+.help{font-size:13px;color:#E58A72;margin-top:6px}
+pre{background:var(--noir-900);border:1px solid rgba(212,175,95,.2);border-radius:16px;padding:20px;overflow:auto;font-size:13px;line-height:1.6}
+.light{background:var(--ivory-50);color:var(--ink-900);border-radius:20px;padding:28px;margin-top:16px}
+.light p{color:var(--ink-600);margin:6px 0 0}
+.light h3{color:var(--ink-900)}
+.light .gold{color:var(--gold-700);font-weight:600}
+footer{padding:48px 0;color:var(--text-on-dark-muted);font-size:14px}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <span class="eyebrow">Design System</span>
+  <h1>Momentt Spa. <em>Onde o cuidado encontra você.</em></h1>
+  <p class="sub">Extraído da logo dourada e do perfil @momentt_spa. Clique em uma cor para copiar o Hex.</p>
+</div></header>
+<main class="wrap">
+
+<h2>Tom <em>visual</em></h2>
+<p class="sub">Preto quente com dourado champagne, muito respiro, serifa elegante e linhas finas com a flor de lótus como ornamento.</p>
+
+<h2>Cores</h2>
+<p class="sub">Dourado é a cor de ação. Verde só no botão de WhatsApp.</p>
+<div class="sw" id="sw"></div>
+
+<h2>Tipografia</h2>
+<p class="sub">Cormorant Garamond para títulos; Jost para corpo e botões.</p>
+<div class="type">
+  <div><small>H1 · 68px / 42px mobile · 500</small><span style="font-family:var(--font-display);font-size:clamp(34px,6vw,64px);line-height:1.05">Onde o cuidado <em style="color:var(--gold-300)">encontra você</em></span></div>
+  <div><small>H2 · 46px / 32px · 500</small><span style="font-family:var(--font-display);font-size:clamp(28px,4vw,42px);line-height:1.12">Um espaço para respirar fundo</span></div>
+  <div><small>H3 · 26px / 23px · 600</small><span style="font-family:var(--font-display);font-size:26px;font-weight:600">Protocolo facial Radiance</span></div>
+  <div><small>Eyebrow · 12,5px · 0,22em</small><span class="eyebrow">Tratamentos</span></div>
+  <div><small>Corpo · 17px / 16px · 400</small><span style="font-size:17px">Cada atendimento começa com uma avaliação individual.</span></div>
+</div>
+
+<h2>Botões</h2>
+<div class="row">
+  <a class="btn btn-primary" href="#">Agendar minha avaliação</a>
+  <a class="btn btn-ghost" href="#">Conhecer os tratamentos</a>
+  <a class="btn btn-wa" href="#">Chamar no WhatsApp</a>
+</div>
+
+<h2>Cards</h2>
+<div class="cards">
+  <div class="card"><h3>Criolipólise</h3><p>Indicada após avaliação individual.</p></div>
+  <div class="card"><h3>Radiance</h3><p>Cuidado e rotina de pele.</p></div>
+  <div class="card"><h3>Massoterapia</h3><p>Relaxe corpo e mente.</p></div>
+</div>
+<div class="light"><h3 style="font-family:var(--font-display);font-size:26px">Seção clara</h3><p>Texto secundário em #5F5444 sobre marfim. <span class="gold">Texto dourado escuro #7D5F22.</span></p></div>
+
+<h2>Campos</h2>
+<div class="row" style="align-items:flex-start">
+  <div style="flex:1;min-width:240px"><label for="a">Normal</label><input id="a" placeholder="Seu nome"></div>
+  <div style="flex:1;min-width:240px"><label for="b">Com erro</label><input id="b" class="err" value="e-mail inválido" aria-describedby="e"><div class="help" id="e">Confira o e-mail digitado.</div></div>
+</div>
+
+<h2>Tokens (CSS)</h2>
+<pre>:root{
+  --noir-950:#0F0C09; --noir-900:#17120D; --noir-800:#221A12;
+  --gold-300:#E6CC8A; --gold-400:#D4AF5F; --gold-500:#C09A45; --gold-700:#7D5F22;
+  --ivory-50:#FAF5EA; --ivory-100:#F1E8D6; --ivory-200:#E2D5BC;
+  --ink-900:#1D1710; --ink-600:#5F5444;
+  --text-on-dark:#EADFC9; --text-on-dark-muted:#BFB197;
+  --wa-500:#25D366; --alert-600:#B3492E;
+}</pre>
+</main>
+<footer><div class="wrap">Connect Alpha · demonstração para Momentt Spa</div></footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<script>
+var cores=[["noir-950","#0F0C09","Fundo hero e rodapé"],["noir-900","#17120D","Seção escura alternada"],["noir-800","#221A12","Cards escuros"],["gold-300","#E6CC8A","Destaque em itálico"],["gold-400","#D4AF5F","Linhas e ícones"],["gold-500","#C09A45","Cor de ação"],["gold-700","#7D5F22","Dourado sobre claro"],["ivory-50","#FAF5EA","Fundo claro"],["ivory-100","#F1E8D6","Seção clara alternada"],["ivory-200","#E2D5BC","Bordas claras"],["ink-900","#1D1710","Texto em claro"],["ink-600","#5F5444","Texto secundário"],["wa-500","#25D366","Só WhatsApp"]];
+var sw=document.getElementById('sw'),t=document.getElementById('toast');
+cores.forEach(function(c){var b=document.createElement('button');b.type='button';b.innerHTML='<i style="background:'+c[1]+'"></i><span><b>--'+c[0]+'</b>'+c[1]+' · '+c[2]+'</span>';b.onclick=function(){try{navigator.clipboard.writeText(c[1])}catch(e){}t.textContent='Copiado '+c[1];t.classList.add('on');setTimeout(function(){t.classList.remove('on')},1400)};sw.appendChild(b)});
+</script>
+</body>
+</html>

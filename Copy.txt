@@ -1,0 +1,136 @@
+COPY - MOMENTT SPA (Lavras/MG)
+Landing page de demonstração. Texto sem promessa de resultado. Tom: acolhedor, sofisticado, calmo.
+Dados reais usados: nota 5,0 e 35 avaliações do Google, endereço da bio do Instagram, serviços vistos no Instagram, três avaliações reais do Google.
+
+=====================================================
+MENU
+Início | O Spa | Tratamentos | Experiência | Avaliações | Contato
+Botão do topo: Agendar avaliação
+
+=====================================================
+1. HERO
+Selo: 5,0 no Google · 35 avaliações
+Título: Onde o cuidado encontra você.
+Subtítulo: Estética facial e corporal em Lavras, num espaço feito para você desacelerar.
+Texto: No Momentt Spa, cada atendimento começa com uma avaliação e termina com você se sentindo bem consigo mesma. Sua melhor versão começa no cuidado.
+Botão principal: Agendar minha avaliação pelo WhatsApp
+Botão secundário: Conhecer os tratamentos
+Linha de apoio: Rua Misseno de Pádua, 485 · Centro · Lavras/MG
+
+=====================================================
+2. FAIXA DE CONFIANÇA (3 itens)
+- 5,0 de nota no Google
+- 35 avaliações de clientes
+- Atendimento com avaliação individual
+
+=====================================================
+3. O SPA
+Seção: O Spa
+Título: Um espaço para respirar fundo.
+Subtítulo: Do primeiro contato ao último minuto do atendimento.
+Texto 1: O Momentt Spa nasceu da vontade de cuidar de pessoas com atenção de verdade. Aqui, o acolhimento começa antes de você chegar: desde o agendamento, você é recebida com cuidado e sem pressa.
+Texto 2: O ambiente é tranquilo, aconchegante e organizado, pensado para que você aproveite cada minuto. Quem conduz os atendimentos é a Larissa, esteticista e massoterapeuta. [FORMAÇÃO E ANOS DE EXPERIÊNCIA A CONFIRMAR]
+Destaques:
+- Acolhimento desde o agendamento
+- Espaço aconchegante
+- Pontualidade e organização
+(Os três destaques vêm das avaliações reais do Google.)
+
+=====================================================
+4. TRATAMENTOS
+Seção: Tratamentos
+Título: Cuidados para o rosto e para o corpo.
+Subtítulo: Cada protocolo é indicado depois de uma avaliação individual.
+
+Card 1 - Criolipólise
+Texto: Tecnologia de resfriamento controlado para tratar gordura localizada, indicada após avaliação.
+Link do card: Perguntar sobre criolipólise
+
+Card 2 - Protocolo facial Radiance
+Texto: Tecnologia e técnica para renovar sua pele de dentro para fora, com foco em cuidado e rotina de pele.
+Link do card: Perguntar sobre o Radiance
+
+Card 3 - Lifting facial 3D
+Texto: Protocolo facial para quem busca cuidar da firmeza e do aspecto da pele, inclusive a pele madura.
+Link do card: Perguntar sobre o lifting facial
+
+Card 4 - Remoção de verruga
+Texto: Procedimento feito com avaliação prévia, em atendimento rápido e com orientação sobre o pós.
+Link do card: Perguntar sobre remoção de verruga
+
+Card 5 - Sobrancelhas
+Texto: Cuidado com o olhar e o desenho do rosto, com atenção ao que combina com você. [TÉCNICA A CONFIRMAR]
+Link do card: Perguntar sobre sobrancelhas
+
+Card 6 - Massoterapia
+Texto: Massagem para relaxar o corpo e a mente, num ambiente pensado para o seu descanso. [TIPOS DE MASSAGEM A CONFIRMAR]
+Link do card: Perguntar sobre massagem
+
+Nota abaixo dos cards: Valores e tempo de cada atendimento: [A CONFIRMAR]. Os resultados variam de pessoa para pessoa.
+Botão: Não sei qual escolher? Fale com a gente
+
+=====================================================
+5. EXPERIÊNCIA (como funciona)
+Seção: A experiência
+Título: Simples do começo ao fim.
+Passo 01 - Você chama no WhatsApp
+Texto: Conte o que você procura e escolha o melhor dia e horário.
+Passo 02 - Avaliação individual
+Texto: A Larissa conversa com você e indica o tratamento mais adequado ao seu caso.
+Passo 03 - Seu momento
+Texto: Você é atendida no seu horário, com calma, num espaço feito para você.
+Botão: Agendar minha avaliação
+
+=====================================================
+6. AVALIAÇÕES
+Seção: Avaliações
+Título: Quem já viveu, recomenda.
+Subtítulo: Nota 5,0 no Google, com 35 avaliações.
+Avaliação 1 - Fabíola Rodrigues Chaves
+"Super recomendo o trabalho da Larissa. É uma ótima profissional que te acolhe desde o agendamento, além de fornecer uma recepção super especial. No Studio você tem uma experiência incrível que eleva a autoestima, além de ter aquele resultado de qualidade."
+Avaliação 2 - Ana Claudia Miranda
+"Ótima profissional, dedicada e muitíssimo educada. Espaço super aconchegante."
+Avaliação 3 - Ludiene Diniz
+"Excelente profissional, super organizada, pontual, super indico, parabéns"
+Rodapé da seção: Avaliações publicadas no Google Maps.
+Botão: Ver o Momentt no Google
+
+=====================================================
+7. INSTAGRAM
+Seção: Instagram
+Título: Acompanhe o dia a dia do spa.
+Texto: Protocolos, bastidores e novidades no @momentt_spa.
+Botão: Ver o Instagram
+
+=====================================================
+8. CONTATO / LOCALIZAÇÃO
+Seção: Onde estamos
+Título: Venha conhecer o espaço.
+Endereço: Rua Misseno de Pádua, 485 · Centro · Lavras/MG
+Horário: [HORÁRIO DE ATENDIMENTO A CONFIRMAR]
+Texto: Atendimento com hora marcada. Chame no WhatsApp e reserve o seu momento.
+Botão: Chamar no WhatsApp
+
+=====================================================
+9. CHAMADA FINAL
+Título: Sua melhor versão começa no cuidado.
+Texto: Reserve uma avaliação e descubra o que o Momentt Spa pode fazer por você.
+Botão: Agendar minha avaliação pelo WhatsApp
+
+=====================================================
+RODAPÉ
+Momentt Spa. Onde o cuidado encontra você!
+Contato: WhatsApp (link do perfil) · Telefone (35) 98897-0248 · Instagram @momentt_spa
+Endereço: Rua Misseno de Pádua, 485 · Centro · Lavras/MG
+Site produzido por Connect Alpha
+
+=====================================================
+PENDÊNCIAS [A CONFIRMAR]
+- Endereço: a bio traz Rua Misseno de Pádua, 485; um post antigo traz Rua Floriânopolis, 107.
+- Horário de atendimento (Maps só mostra "Fecha 18:00").
+- Valores e duração dos tratamentos.
+- Técnica de sobrancelha e tipos de massagem.
+- Sobrenome, formação e anos de experiência da Larissa.
+- Se o telefone (35) 98897-0248 é o mesmo WhatsApp do link do perfil.
+- Fotos reais do espaço e dos atendimentos, e autorização para fotos de antes e depois.
+- Avaliação 3 do Google aparece cortada no Maps; foi usada só a parte visível.
